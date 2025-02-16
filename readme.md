@@ -9,7 +9,7 @@ https://github.com/user-attachments/assets/cbf3dd05-ab03-4250-b96f-91e79832d08d
 ## Features
 
 - **Dataset Integration:**  
-  Loads an Excel file (`Dataset1.xlsx`) containing cognitive activity details. The expected columns are:
+  Loads an Excel file (`Dataset.xlsx`) containing cognitive activity details. The expected columns are:
   - `Visualization`
   - `Memory`
   - `Association`
@@ -87,7 +87,7 @@ The API will return a JSON response with a list of recommended activities.
 
 - **app.py:**  
   Contains the Flask API code:
-  - `load_dataset()`: Loads the Excel dataset from `Dataset1.xlsx`.
+  - `load_dataset()`: Loads the Excel dataset from `Dataset.xlsx`.
   - `create_knowledge_base()`: Creates a snippet of examples from the dataset.
   - `generate_activity_recommendations()`: Builds a detailed prompt and calls the Together API to generate a JSON array of recommendations.
   - `/recommend`: The Flask endpoint that accepts query parameters and returns generated recommendations as JSON.
