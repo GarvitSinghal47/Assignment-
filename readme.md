@@ -2,6 +2,10 @@
 
 This project provides a Flask-based RESTful API that generates cognitive activity recommendations using the Together AI API. The recommendations are generated based on a dataset of cognitive activities provided in an Excel file named `Dataset.xlsx`. The API accepts parameters such as category, zone, and age range, and returns a JSON response with a list of recommended activities.
 
+## Demo
+
+https://github.com/user-attachments/assets/cbf3dd05-ab03-4250-b96f-91e79832d08d
+
 ## Features
 
 - **Dataset Integration:**  
